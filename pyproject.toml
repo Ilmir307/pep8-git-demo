@@ -1,0 +1,7 @@
+# Конфигурация инструментов форматирования кода (задание 1556)
+
+[tool.black]
+line-length = 79
+
+[tool.autopep8]
+max_line_length = 79
