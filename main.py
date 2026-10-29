@@ -5,10 +5,13 @@ def greet(name):
     """Возвращает приветствие для указанного имени."""
     return "Привет, " + name + "!"
 
-def calc_sum( x,y ):
-        result=x+y
-        return result
+
+def calc_sum(x, y):
+    """Возвращает сумму двух чисел."""
+    result = x + y
+    return result
+
 
 if __name__ == "__main__":
     print(greet("мир"))
-    print( calc_sum(1,2) )
+    print(calc_sum(1, 2))
